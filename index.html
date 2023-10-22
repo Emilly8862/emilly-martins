@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Site Simples</title>
+</head>
+<body>
+     <header class="header">
+        <h1>Meu Portifólio</h1>
+        <div class="button-container">
+            <button onclick="scrollToSection('section1')">Sobre Mim</button>
+            <button onclick="scrollToSection('section2')">Minha Formação</button>
+            <button onclick="scrollToSection('section3')">Projetos</button>
+            <button onclick="scrollToSection('section4')">Contato</button>
+        </div>
+    </header>
+    <div class="corpo">
+        <div id="section1" class="section">
+            <h2>Sobre Mim </h2> 
+            <p>Olá meu nome é Emilly Martins, tenho 19 anos, gosto de estudar de uma maneira que muitas pessoas podem achar um tanto peculiar. Para mim, a aprendizagem é como desvendar um quebra-cabeça complexo, uma jornada emocionante em busca de conhecimento. Quando estou imersa em um assunto que me interessa, sinto-me verdadeiramente animada e motivada para aprender mais. Além disso, meu hobby favorito é jogar. Os jogos oferecem uma fuga do cotidiano, um espaço onde posso desafiar minha mente de maneira diferente.</p>
+        </div>
+    
+        <div id="section2" class="section">
+            <h2>Minha formação</h2>
+            <ul>
+                <li>Ensino Médio Completo</li>
+                <li>Curso de Auxiliar Administrativo (SENAI)</li>
+                <li>Graduando em Análise e Desenvolvimento de Sistemas</li>
+            </ul>
+        </div>
+    
+        <div id="section3" class="section">
+            <h2>Projetos</h2>
+            <a href="https://colab.research.google.com/drive/1tu91UC7XNUJAbAZQ8ARZfY97QGjSBBib?usp=sharing "target="_blank">Trabalhos Academicos</a>
+        </div>
+    
+        <div id="section4" class="section espacamento-secao">
+            <h2>Me contate</h2>
+            <div>
+                <label for="Nome">Seu Nome</label><br>
+                <input name="Nome" type="text">
+            </div>
+            <div>
+                <label for="Email">Seu Email</label><br>
+                <input name="Email" type="text">
+            </div>
+            <div>
+                <label for="Telefone">Seu Telefone</label><br>
+                <input name="Telefone" type="text">
+            </div>
+            <div>
+                <label for="Mensagem">Sua Mensagem</label><br>
+                <textarea name="Mensagem" rows="5" cols="50"></textarea>
+
+            </div>
+            <button class="botao-escuro">Enviar</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
