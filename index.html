@@ -9,57 +9,62 @@
 <body>
      <header class="header">
         <h1>Meu Portifólio</h1>
-        <div class="button-container">
+        <div class="estilo-botoes">
+
+            <!-- Botões de navegação para as seções da página -->
             <button onclick="scrollToSection('section1')">Sobre Mim</button>
             <button onclick="scrollToSection('section2')">Minha Formação</button>
             <button onclick="scrollToSection('section3')">Projetos</button>
             <button onclick="scrollToSection('section4')">Contato</button>
         </div>
     </header>
+    <!-- As quatro seções da página -->
     <div class="corpo">
-        <div id="section1" class="section">
+        <div id="section1" class="seccao">
             <h2>Sobre Mim </h2> 
-            <p>Olá meu nome é Emilly Martins, tenho 19 anos, gosto de estudar de uma maneira que muitas pessoas podem achar um tanto peculiar. Para mim, a aprendizagem é como desvendar um quebra-cabeça complexo, uma jornada emocionante em busca de conhecimento. Quando estou imersa em um assunto que me interessa, sinto-me verdadeiramente animada e motivada para aprender mais. Além disso, meu hobby favorito é jogar. Os jogos oferecem uma fuga do cotidiano, um espaço onde posso desafiar minha mente de maneira diferente.</p>
+            <!-- Informações pessoais -->
+            <p>Olá meu nome é Emilly Martins tenho 19 anos, gosto de estudar de uma maneira que muitas pessoas podem achar um tanto peculiar. Para mim, a aprendizagem é como desvendar um quebra-cabeça complexo, uma jornada emocionante em busca de conhecimento. Quando estou imersa em um assunto que me interessa, sinto-me verdadeiramente animada e motivada para aprender mais. Além disso, meu hobby favorito é jogar. Os jogos oferecem uma fuga do cotidiano, um espaço onde posso desafiar minha mente de maneira diferente.</p>
         </div>
     
-        <div id="section2" class="section">
+        <div id="section2" class="seccao">
+            <!-- Informações educacionais -->
             <h2>Minha formação</h2>
-            <ul>
-                <li>Ensino Médio Completo</li>
-                <li>Curso de Auxiliar Administrativo (SENAI)</li>
-                <li>Graduando em Análise e Desenvolvimento de Sistemas</li>
-            </ul>
+            <p>- Ensino Médio Completo</p>
+            <p>- Curso de Auxiliar Administrativo (SENAI)</p>
+            <p>- Graduando em Análise e Desenvolvimento de Sistemas</p>
         </div>
     
-        <div id="section3" class="section">
+        <div id="section3" class="seccao">
             <h2>Projetos</h2>
             <a href="https://colab.research.google.com/drive/1tu91UC7XNUJAbAZQ8ARZfY97QGjSBBib?usp=sharing "target="_blank">Trabalhos Academicos</a>
         </div>
     
-        <div id="section4" class="section espacamento-secao">
+        <div id="section4" class="seccao">
             <h2>Me contate</h2>
+             <!-- Formulário de contato -->
             <div>
-                <label for="Nome">Seu Nome</label><br>
+                <label for="Nome">Seu Nome</label>
                 <input name="Nome" type="text">
             </div>
             <div>
-                <label for="Email">Seu Email</label><br>
+                <label for="Email">Seu Email</label>
                 <input name="Email" type="text">
             </div>
             <div>
-                <label for="Telefone">Seu Telefone</label><br>
+                <label for="Telefone">Seu Telefone</label>
                 <input name="Telefone" type="text">
             </div>
             <div>
-                <label for="Mensagem">Sua Mensagem</label><br>
-                <textarea name="Mensagem" rows="5" cols="50"></textarea>
+                <label for="Mensagem">Sua Mensagem</label>
+                <textarea name="Mensagem" rows="5" cols="25"></textarea>
 
             </div>
-            <button class="botao-escuro">Enviar</button>
+            <button>Enviar</button>
+
         </div>
     </div>
 
-
+    <!-- Vincula o arquivo JavaScript "script.js" -->
     <script src="script.js"></script>
 </body>
 </html>
